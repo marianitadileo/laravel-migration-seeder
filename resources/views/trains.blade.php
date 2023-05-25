@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="container">
-        <h1 class="my-5">Treni in partenza 25/05/2023</h1>
+        <h1 class="my-5">Treni</h1>
         <div class="row row-cols-5">
             @foreach ($trains as $train)
             <div class="col">
